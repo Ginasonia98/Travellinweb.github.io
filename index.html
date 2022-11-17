@@ -171,43 +171,43 @@
         border-bottom-right-radius: 24px;
       }
 
-      .footer{
-        padding:100px 20px 15px;
+      .footer {
+        padding: 100px 20px 15px;
         background-color: #f44336;
-        color:#fff;
+        color: #fff;
       }
-      .footer-logo{
-        width:150px;
-        margin-top:15px;
-        margin-bottom:15px;
+      .footer-logo {
+        width: 150px;
+        margin-top: 15px;
+        margin-bottom: 15px;
       }
-      .footer h4{
-        text-align:left;
-        margin-top:15px;
-        margin-bottom:25px;
+      .footer h4 {
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 25px;
       }
-      .footer p{
-        font-size:12px;
-        text-align:justify;
-        padding-right:35px;
-      }
-
-      .footer .row .fa{
-        padding-right:20px;
-        font-size:15px;
-      }
-      .footer hr{
-        margin-top:10px;
-        background:#efefef;
+      .footer p {
+        font-size: 12px;
+        text-align: justify;
+        padding-right: 35px;
       }
 
-      .fa-heart{
-        margin:0 5px;
-        color:#f44336;
+      .footer .row .fa {
+        padding-right: 20px;
+        font-size: 15px;
+      }
+      .footer hr {
+        margin-top: 10px;
+        background: #efefef;
       }
 
-      .footer .copyright{
-        text-align:center;
+      .fa-heart {
+        margin: 0 5px;
+        color: #f44336;
+      }
+
+      .footer .copyright {
+        text-align: center;
       }
 
       .btn-primary {
@@ -222,7 +222,7 @@
         position: fixed;
         bottom: 0px;
         right: 10px;
-        width: 30vw;
+        width: 10vw;
         z-index: 1000;
       }
 
@@ -244,10 +244,10 @@
       }
 
       .color-1 {
-        color: #F49D1A;
+        color: #f49d1a;
       }
       .color-2 {
-        color: #FFE15D;
+        color: #ffe15d;
       }
 
       .no-hovered-link {
@@ -299,35 +299,35 @@
           width: 100%;
         }
       }
-      .bi-search{
+      .bi-search {
         margin-left: -2rem;
         display: flex;
         justify-content: center;
         align-items: center;
       }
 
-      .btn-outline-warning{
+      .btn-outline-warning {
         margin-left: 1rem;
       }
 
       .explanation {
-        color: #EB6440;
+        color: #eb6440;
         text-align: center;
         margin-top: 3rem;
         margin-bottom: 3rem;
       }
 
-      .btn-link{
+      .btn-link {
         display: flex;
         justify-content: right;
         align-items: flex-end;
       }
 
-      .bi-envelope{
+      .bi-envelope {
         margin-right: 0.2rem;
       }
 
-      .bi-geo-alt{
+      .bi-geo-alt {
         margin-right: 0.2rem;
       }
     </style>
@@ -389,17 +389,19 @@
           >
             Sign in
           </button>
-              <script>
+          <script>
             function changeButtonDesc() {
-            let btnElement = document.getElementById("btn");
-            if (btnElement.innerHTML == "LOGOUT") {
+              let btnElement = document.getElementById("btn");
+              if (btnElement.innerHTML == "LOGOUT") {
                 btnElement.innerHTML = "SIGNOUT";
-            } else {
+              } else {
                 btnElement.innerHTML = "LOGOUT";
+              }
             }
-        }
           </script>
-          <button id="btn" class="btn btn-info" onclick="changeButtonDesc()">SIGNOUT</button>
+          <button id="btn" class="btn btn-info" onclick="changeButtonDesc()">
+            SIGNOUT
+          </button>
         </div>
       </div>
     </nav>
@@ -570,14 +572,18 @@
       Let's Visit Destination Of Indonesia
     </div>
     <div class="explanation">
-    <h1>Favorite Destination</h1>
+      <h1>Favorite Destination</h1>
     </div>
-      <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
           <div class="card-deck">
             <div class="card">
-              <img src="https://i.pinimg.com/564x/64/d3/e5/64d3e59129ae8000904691597396d1ed.jpg" class="img-thumbnail" alt="wakatobi" />
+              <img
+                src="https://i.pinimg.com/564x/64/d3/e5/64d3e59129ae8000904691597396d1ed.jpg"
+                class="img-thumbnail"
+                alt="wakatobi"
+              />
               <div class="card-body">
                 <h5 class="center">Wakatobi National Park</h5>
                 <!-- button -->
@@ -618,8 +624,14 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        Wakatobi National Park is one of the national parks where most of its territory is water. Wakatobi National Park is located on the island of Sulawesi and is famous for its stunning underwater paradise.
-                        The natural conditions in this national park are also very unique. Thanks to the domination of water areas which are far more numerous than land areas, the types of flora and fauna are also dominated by aquatic species.
+                        Wakatobi National Park is one of the national parks
+                        where most of its territory is water. Wakatobi National
+                        Park is located on the island of Sulawesi and is famous
+                        for its stunning underwater paradise. The natural
+                        conditions in this national park are also very unique.
+                        Thanks to the domination of water areas which are far
+                        more numerous than land areas, the types of flora and
+                        fauna are also dominated by aquatic species.
                       </div>
                       <div class="modal-footer">
                         <button
@@ -688,8 +700,16 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      Komodo Island is one of the 7 Wonders of the World (2011 voting results). Komodo National Park consists of 3 large islands, Komodo Island, Rinca Island, and Padar Island, as well as other small islands. The total area of this national park is 1,817 km2.
-                      Komodo Island is located at the westernmost tip of East Nusa Tenggara Province. On the island of Komodo, Komodo dragons live and reproduce well, according to data, until mid-2009, this island is inhabited by around 1300 Komodo dragons (+/- 2500 on all islands in TM. Komodo).
+                      Komodo Island is one of the 7 Wonders of the World (2011
+                      voting results). Komodo National Park consists of 3 large
+                      islands, Komodo Island, Rinca Island, and Padar Island, as
+                      well as other small islands. The total area of this
+                      national park is 1,817 km2. Komodo Island is located at
+                      the westernmost tip of East Nusa Tenggara Province. On the
+                      island of Komodo, Komodo dragons live and reproduce well,
+                      according to data, until mid-2009, this island is
+                      inhabited by around 1300 Komodo dragons (+/- 2500 on all
+                      islands in TM. Komodo).
                     </div>
                     <div class="modal-footer">
                       <button
@@ -758,7 +778,10 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                     Trio Gili is the designation for three beaches in Lombok. The three islands include Gili Trawangan, Gili Meno and Gili Air. Currently there is access to get to these tourist attractions which are getting easier and growing.
+                      Trio Gili is the designation for three beaches in Lombok.
+                      The three islands include Gili Trawangan, Gili Meno and
+                      Gili Air. Currently there is access to get to these
+                      tourist attractions which are getting easier and growing.
                     </div>
                     <div class="modal-footer">
                       <button
@@ -782,254 +805,291 @@
     <!-- end card 1 -->
     <!-- card 2 -->
 
-   <div class="container mt-4">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-        <div class="card-deck">
-          <!-- card 3 -->
-          <div class="card">
-            <img
-              src="https://i.pinimg.com/564x/57/e4/df/57e4df1636def1d128e1c70806805c46.jpg"
-              class="img-thumbnail"
-              alt="ampat"
-            />
-            <div class="card-body">
-              <h5 class="center">Raja Ampat</h5>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+          <div class="card-deck">
+            <!-- card 3 -->
+            <div class="card">
+              <img
+                src="https://i.pinimg.com/564x/57/e4/df/57e4df1636def1d128e1c70806805c46.jpg"
+                class="img-thumbnail"
+                alt="ampat"
+              />
+              <div class="card-body">
+                <h5 class="center">Raja Ampat</h5>
 
-              <!-- button -->
-              <button
-                type="button"
-                class="btn btn-primary"
-                class="left"
-                data-toggle="modal"
-                data-target="#sql"
-              >
-                See Now
-              </button>
-              <!-- endbutton -->
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="sql"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLongTitle"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <img
-                        src="https://i.pinimg.com/564x/57/e4/df/57e4df1636def1d128e1c70806805c46.jpg"
-                        class="img-thumbnail"
-                        alt="ampat"
-                      />
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Raja Ampat is a regency and is part of West Papua Province. To reach these islands, we must first set foot in the city of Sorong. Usually, many tourists use flights to get to this city. After arriving in the city of Sorong, we can use a kind of fast boat that usually sails twice a day to Waisai, the district capital of Raja Ampat. The trip will only take about 2-3 hours from the port of Sorong, until you arrive at the port of Waisai Raja Ampat.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
+                <!-- button -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  class="left"
+                  data-toggle="modal"
+                  data-target="#sql"
+                >
+                  See Now
+                </button>
+                <!-- endbutton -->
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="sql"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLongTitle"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img
+                          src="https://i.pinimg.com/564x/57/e4/df/57e4df1636def1d128e1c70806805c46.jpg"
+                          class="img-thumbnail"
+                          alt="ampat"
+                        />
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Raja Ampat is a regency and is part of West Papua
+                        Province. To reach these islands, we must first set foot
+                        in the city of Sorong. Usually, many tourists use
+                        flights to get to this city. After arriving in the city
+                        of Sorong, we can use a kind of fast boat that usually
+                        sails twice a day to Waisai, the district capital of
+                        Raja Ampat. The trip will only take about 2-3 hours from
+                        the port of Sorong, until you arrive at the port of
+                        Waisai Raja Ampat.
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <!-- end modal -->
               </div>
-              <!-- end modal -->
             </div>
+            <!-- end card 3 -->
           </div>
-          <!-- end card 3 -->
         </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-        <div class="card-deck">
-          <!-- Card 4 -->
-          <div class="card">
-            <img
-              src="https://i.pinimg.com/564x/39/36/21/393621e53e296f39c89db1a9a5fd6ab4.jpg"
-              class="img-thumbnail"
-              alt="sentani"
-            />
-            <div class="card-body">
-              <h5 class="center">Sentani Lake</h5>
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+          <div class="card-deck">
+            <!-- Card 4 -->
+            <div class="card">
+              <img
+                src="https://i.pinimg.com/564x/39/36/21/393621e53e296f39c89db1a9a5fd6ab4.jpg"
+                class="img-thumbnail"
+                alt="sentani"
+              />
+              <div class="card-body">
+                <h5 class="center">Sentani Lake</h5>
 
-              <!-- button -->
-              <button
-                type="button"
-                class="btn btn-primary"
-                class="left"
-                data-toggle="modal"
-                data-target="#java"
-              >
-                See Now
-              </button>
-              <!-- endbutton -->
+                <!-- button -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  class="left"
+                  data-toggle="modal"
+                  data-target="#java"
+                >
+                  See Now
+                </button>
+                <!-- endbutton -->
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="java"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLongTitle"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <img
-                        src="https://i.pinimg.com/564x/39/36/21/393621e53e296f39c89db1a9a5fd6ab4.jpg"
-                        class="img-thumbnail"
-                        alt="sentani"
-                      />
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Lake Sentani is in the Sentani area, the capital of Jayapura Regency. This lake can be reached in 15 minutes from Sentani airport and stretches wide along the way to the city of Jayapura. You will feel a cool breeze and peaceful calm when you enter the Lake Sentani area. In fact, to be more at one with the nature of Lake Sentani, tourists can go around and visit the islands on Lake Sentani by renting available motorized boats.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="java"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLongTitle"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img
+                          src="https://i.pinimg.com/564x/39/36/21/393621e53e296f39c89db1a9a5fd6ab4.jpg"
+                          class="img-thumbnail"
+                          alt="sentani"
+                        />
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Lake Sentani is in the Sentani area, the capital of
+                        Jayapura Regency. This lake can be reached in 15 minutes
+                        from Sentani airport and stretches wide along the way to
+                        the city of Jayapura. You will feel a cool breeze and
+                        peaceful calm when you enter the Lake Sentani area. In
+                        fact, to be more at one with the nature of Lake Sentani,
+                        tourists can go around and visit the islands on Lake
+                        Sentani by renting available motorized boats.
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <!-- end modal -->
               </div>
-              <!-- end modal -->
             </div>
+            <!-- end card 4 -->
           </div>
-          <!-- end card 4 -->
         </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-        <div class="card-deck">
-          <!-- card 5 -->
-          <div class="card">
-            <img
-              src="https://i.pinimg.com/564x/97/b6/22/97b6225c22cbe34d94084ca6b7c0c00d.jpg"
-              class="img-thumbnail"
-              alt="lot"
-            />
-            <div class="card-body">
-              <h5 class="center">Tanah Lot</h5>
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+          <div class="card-deck">
+            <!-- card 5 -->
+            <div class="card">
+              <img
+                src="https://i.pinimg.com/564x/97/b6/22/97b6225c22cbe34d94084ca6b7c0c00d.jpg"
+                class="img-thumbnail"
+                alt="lot"
+              />
+              <div class="card-body">
+                <h5 class="center">Tanah Lot</h5>
 
-              <!-- button -->
-              <button
-                type="button"
-                class="btn btn-primary"
-                class="left"
-                data-toggle="modal"
-                data-target="#query"
-              >
-                See Now
-              </button>
-              <!-- endbutton -->
+                <!-- button -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  class="left"
+                  data-toggle="modal"
+                  data-target="#query"
+                >
+                  See Now
+                </button>
+                <!-- endbutton -->
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="query"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLongTitle"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <img
-                        src="https://i.pinimg.com/564x/97/b6/22/97b6225c22cbe34d94084ca6b7c0c00d.jpg"
-                        class="img-thumbnail"
-                        alt="lot"
-                      />
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Tanah Lot Bali is one of the tourist attractions that must be visited when going to the Island of the Gods.
-                      This place which is one of the tourism icons of the island of Bali, turns out to be one of several important temples for local Hindus.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="query"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLongTitle"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img
+                          src="https://i.pinimg.com/564x/97/b6/22/97b6225c22cbe34d94084ca6b7c0c00d.jpg"
+                          class="img-thumbnail"
+                          alt="lot"
+                        />
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Tanah Lot Bali is one of the tourist attractions that
+                        must be visited when going to the Island of the Gods.
+                        This place which is one of the tourism icons of the
+                        island of Bali, turns out to be one of several important
+                        temples for local Hindus.
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <!-- end modal -->
               </div>
-              <!-- end modal -->
             </div>
+            <!-- end card 5 -->
           </div>
-          <!-- end card 5 -->
         </div>
       </div>
-    </div>
     </div>
     <!-- end card 2 -->
     <!-- end card 1 -->
     <!-- card 2 -->
     <!-- end card 2 -->
   </body>
-  <br/>
-   <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h4>Services</h4>
-                    <p>Petshop</p>
-                    <p>Movie Streaming</p>
-                    <p>Delivery Food</p>
-                </div>
-                <div class="col-md-3">
-                    <h4>Contact</h4>
-                    <p><i class="bi bi-envelope" ></i>	ginas.tobing@gmail.com</p>
-                    <p><i class="bi bi-geo-alt"></i>Jakarta, Indonesia</p>
-                </div>
-                <div class="col-md-3">
-                    <h4>Follow Us on</h4>
-                      <a href="https://www.instagram.com/chikogina_/?igshid=YmMyMTA2M2Y%3D"><img id="instagramLogo" src="https://img.icons8.com/3d-fluency/344/instagram-new.png" width="20px" alt="instagram link" /></a>
-                      <a href="https://www.linkedin.com/in/ginatobing"><img id="linkendLogo" src="https://img.icons8.com/fluency/344/linkedin.png" width="20px"  alt="linked link" /></a>
-                      <a href="https://github.com/Ginasonia98?tab=repositories"><img id="githubLogo" src="https://img.icons8.com/sf-regular/344/github.png" width="20px"  alt="github link" /></a>
-                </div>
-                 <button type="button" class="btn btn-link ">
-                  <a href="contact-us.html">Contact us </a></button>
-            </div>
-            <hr>
-            <p class="copyright">Psalm The Royal Company © 2022</p>
+  <br />
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Services</h4>
+          <p>Petshop</p>
+          <p>Movie Streaming</p>
+          <p>Delivery Food</p>
         </div>
-    </section>
+        <div class="col-md-3">
+          <h4>Contact</h4>
+          <p><i class="bi bi-envelope"></i> ginas.tobing@gmail.com</p>
+          <p><i class="bi bi-geo-alt"></i>Jakarta, Indonesia</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Follow Us on</h4>
+          <a href="https://www.instagram.com/chikogina_/?igshid=YmMyMTA2M2Y%3D"
+            ><img
+              id="instagramLogo"
+              src="https://img.icons8.com/3d-fluency/344/instagram-new.png"
+              width="20px"
+              alt="instagram link"
+          /></a>
+          <a href="https://www.linkedin.com/in/ginatobing"
+            ><img
+              id="linkendLogo"
+              src="https://img.icons8.com/fluency/344/linkedin.png"
+              width="20px"
+              alt="linked link"
+          /></a>
+          <a href="https://github.com/Ginasonia98?tab=repositories"
+            ><img
+              id="githubLogo"
+              src="https://img.icons8.com/sf-regular/344/github.png"
+              width="20px"
+              alt="github link"
+          /></a>
+        </div>
+        <button type="button" class="btn btn-link">
+          <a href="contact-us.html">Contact us </a>
+        </button>
+      </div>
+      <hr />
+      <p class="copyright">Psalm The Royal Company © 2022</p>
+    </div>
+  </section>
 </html>
