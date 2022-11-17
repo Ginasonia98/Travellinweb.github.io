@@ -101,43 +101,43 @@
         border-bottom-right-radius: 24px;
       }
 
-      .footer{
-        padding:100px 20px 15px;
+      .footer {
+        padding: 100px 20px 15px;
         background-color: #f44336;
-        color:#fff;
+        color: #fff;
       }
-      .footer-logo{
-        width:150px;
-        margin-top:15px;
-        margin-bottom:15px;
+      .footer-logo {
+        width: 150px;
+        margin-top: 15px;
+        margin-bottom: 15px;
       }
-      .footer h4{
-        text-align:left;
-        margin-top:15px;
-        margin-bottom:25px;
+      .footer h4 {
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 25px;
       }
-      .footer p{
-        font-size:12px;
-        text-align:justify;
-        padding-right:35px;
-      }
-
-      .footer .row .fa{
-        padding-right:20px;
-        font-size:15px;
-      }
-      .footer hr{
-        margin-top:10px;
-        background:#efefef;
+      .footer p {
+        font-size: 12px;
+        text-align: justify;
+        padding-right: 35px;
       }
 
-      .fa-heart{
-        margin:0 5px;
-        color:#f44336;
+      .footer .row .fa {
+        padding-right: 20px;
+        font-size: 15px;
+      }
+      .footer hr {
+        margin-top: 10px;
+        background: #efefef;
       }
 
-      .footer .copyright{
-        text-align:center;
+      .fa-heart {
+        margin: 0 5px;
+        color: #f44336;
+      }
+
+      .footer .copyright {
+        text-align: center;
       }
 
       .btn-primary {
@@ -174,10 +174,10 @@
       }
 
       .color-1 {
-        color: #F49D1A;
+        color: #f49d1a;
       }
       .color-2 {
-        color: #FFE15D;
+        color: #ffe15d;
       }
 
       .no-hovered-link {
@@ -211,45 +211,53 @@
           width: 90vw !important;
         }
       }
-      .bi-search{
+      .bi-search {
         margin-left: -2rem;
         display: flex;
         justify-content: center;
         align-items: center;
       }
 
-      .btn-outline-warning{
+      .btn-outline-warning {
         margin-left: 1rem;
       }
 
-      .Explanation{
+      .Explanation {
         font-size: 20px;
         margin-bottom: 15px;
         color: #fff;
       }
 
-       .Explanation2{
+      .Explanation2 {
         font-size: 20px;
         margin-bottom: 15px;
         color: #fff;
       }
-      .btn-link{
+      .btn-link {
         display: flex;
         justify-content: right;
         align-items: flex-end;
       }
 
-      .breadcrumb1{
-      font-size: large;
-      margin-top: 2rem;
-      display: flex;
+      .breadcrumb1 {
+        font-size: large;
+        margin-top: 2rem;
+        display: flex;
       }
 
-      .center{
+      .center {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+      }
+
+      .bi-envelope {
+        margin-right: 0.2rem;
+      }
+
+      .bi-geo-alt {
+        margin-right: 0.2rem;
       }
     </style>
   </head>
@@ -310,17 +318,19 @@
           >
             Sign in
           </button>
-              <script>
+          <script>
             function changeButtonDesc() {
-            let btnElement = document.getElementById("btn");
-            if (btnElement.innerHTML == "LOGOUT") {
+              let btnElement = document.getElementById("btn");
+              if (btnElement.innerHTML == "LOGOUT") {
                 btnElement.innerHTML = "SIGNOUT";
-            } else {
+              } else {
                 btnElement.innerHTML = "LOGOUT";
+              }
             }
-        }
           </script>
-          <button id="btn" class="btn btn-info" onclick="changeButtonDesc()">SIGNOUT</button>
+          <button id="btn" class="btn btn-info" onclick="changeButtonDesc()">
+            SIGNOUT
+          </button>
         </div>
       </div>
     </nav>
@@ -401,800 +411,827 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-      <!-- breadcrumb -->
-  <div class="container mb-4">
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-      <div class="breadcrumb1">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">Tourist Attraction</li>
-          <li class="breadcrumb-item active" aria-current="page"><a href="#">Sumatra</a></li>
-        </ol>
-      </div>
-      <div class="Explanation">Aceh</div>
-      <div class="row padding-card">
-        <div class="col-sm-12 col-lg-4 mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/eb/11/db/eb11db9bdaace51dcf7cb93d0eb1adca.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="rubiah"
-          />
-          <h5 class="center">Rubiah Island</h5>
+    <!-- breadcrumb -->
+    <div class="container mb-4">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <div class="breadcrumb1">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Tourist Attraction</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a href="#">Sumatra</a>
+            </li>
+          </ol>
+        </div>
+        <div class="Explanation">Aceh</div>
+        <div class="row padding-card">
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/eb/11/db/eb11db9bdaace51dcf7cb93d0eb1adca.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="rubiah"
+                />
+                <h5 class="center">Rubiah Island</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/da/4e/0e/da4e0e5b0418e23ef86f6dc1f7e584cc.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="rubiah"
+                />
+                <h5 class="center">Lampuk Beach</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/f3/43/4a/f3434ac71fcdc63c594425d3f7ac831f.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="aneuklaot"
+                />
+                <h5 class="center">Aneuk Laot Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">North Sumatra</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/30/95/a9/3095a9bc3380b69f142e144f53a984d2.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="aneuklaot"
+                />
+                <h5 class="center">Toba Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/0e/e9/ff/0ee9ff0cb7304101641d5ba2fbf31334.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="sibayak"
+                />
+                <h5 class="center">Sibayak Mountain</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/75/3b/a0/753ba03bd6b2540890841a325471af92.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="holbung"
+                />
+                <h5 class="center">Holbung Hill</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/d6/e8/5c/d6e85ce6de266c12608156db4cd35a5f.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="sipiso"
+                />
+                <h5 class="center">Sipiso piso Waterfall</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/aa/cf/a5/aacfa53676e23413646e0cd12f91bc46.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="tinggiraja"
+                />
+                <h5 class="center">Tinggi Raja White Crater</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/05/85/57/058557aa2f188506cbdc9eb33994911d.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="leuser"
+                />
+                <h5 class="center">Mount Leuser National Park</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">West Sumatra</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/4e/51/82/4e518282b4f76a9ab48fa8873bfe222b.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="anai"
+                />
+                <h5 class="center">Anai Valley</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/88/37/f7/8837f7fe510d87389f8918078f524326.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="pagaruyung"
+                />
+                <h5 class="center">Pagaruyung Palace</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/236x/15/de/53/15de53b48854bbebfa91c47acef4e98c.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="singkarak"
+                />
+                <h5 class="center">Singkarak Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/f4/03/9d/f4039da67f9f680f68efd879c7cdeb41.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="singgalang"
+                />
+                <h5 class="center">Singgalang Mountain</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/03/f5/45/03f54571a19d9004b0b8e5f9373ad654.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="janjang"
+                />
+                <h5 class="center">Janjang Koto Gadang</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/f0/61/62/f061629a8ec620494967ab424a8a0be8.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="lawang"
+                />
+                <h5 class="center">Lawang Peak</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">South Sumatra</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/ce/e1/2e/cee12e14ed9a05f195ff27e0d43e5e89.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="ampera"
+                />
+                <h5 class="center">Ampera Bridge</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/0d/f4/79/0df4790f151976bb0b0f4fd5e74dcde6.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="dempo"
+                />
+                <h5 class="center">Dempo Mountain</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/0c/7a/88/0c7a88b512ffde40a370959fd38eb079.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="ranau"
+                />
+                <h5 class="center">Ranau Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">Riau</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/74/51/bd/7451bdd6977b4c140852239911c8d2b7.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="jemur"
+                />
+                <h5 class="center">Jemur Island</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/f1/e8/e8/f1e8e8b16ec7d4626c085e71932b9195.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="trikora"
+                />
+                <h5 class="center">Trikora Beach</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/49/e6/3c/49e63ca7238d55a67f65457fc2c6d9f5.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="bigau"
+                />
+                <h5 class="center">Lubuk Bigau Waterfall</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">Jambi</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/f6/dd/f4/f6ddf4578813e322fcaf5acff07c066e.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="tujuh"
+                />
+                <h5 class="center">Seven Mountain Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/a0/a0/29/a0a0292ff0c2eea9d00f3039aafa3ed4.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="merangi"
+                />
+                <h5 class="center">Geopark Merangin</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/cd/c8/1b/cdc81bf9b0b1c259b7268dfcad805769.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="kerinci"
+                />
+                <h5 class="center">Kerinci Mountain</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">Bangka Belitung</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/22/8d/8a/228d8a06a1674d7df34d8eb2cd965d8a.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="kaolin"
+                />
+                <h5 class="center">Kaolin Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/2d/cd/7d/2dcd7dd65c8f7d570031db1de1166068.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="lengkuas"
+                />
+                <h5 class="center">Lengkuas Island</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/4a/08/e7/4a08e748a33af8e20c9d52365b584c45.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="botanical"
+                />
+                <h5 class="center">Botanical Garden</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/da/4e/0e/da4e0e5b0418e23ef86f6dc1f7e584cc.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="rubiah"
-          />
-          <h5 class="center">Lampuk Beach</h5>
+      </nav>
+    </div>
+    <!-- breadcrumb2 -->
+    <div class="container mt-4">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <div class="breadcrumb1">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Tourist Attraction</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a href="#">Jawa</a>
+            </li>
+          </ol>
+        </div>
+        <div class="Explanation2">West Java</div>
+        <div class="row padding-card">
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/7e/f0/32/7ef032aaf895406f4f5ac6943d090085.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="canyon"
+                />
+                <h5 class="center">Green Canyon Pangandaran</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/f3/43/4a/f3434ac71fcdc63c594425d3f7ac831f.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="aneuklaot"
-          />
-          <h5 class="center">Aneuk Laot Lake</h5>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/86/60/40/866040b1466e990e3253c94015b56e68.jpg "
+                  width="200vw"
+                  height="275vx"
+                  class="d-block w-100"
+                  alt="sakura"
+                />
+                <h5 class="center">Cibodas Botanical Garden Sakura Park</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="Explanation">North Sumatra</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/30/95/a9/3095a9bc3380b69f142e144f53a984d2.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="aneuklaot"
-          />
-          <h5 class="center">Toba Lake</h5>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/0a/fa/d4/0afad43c96aca65c3ab8da4f864fd47a.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="putih"
+                />
+                <h5 class="center">White Crater Bandung</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/0e/e9/ff/0ee9ff0cb7304101641d5ba2fbf31334.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="sibayak"
-          />
-          <h5 class="center">Sibayak Mountain</h5>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/22/b9/75/22b9756f74d13ad57efc1f89a6fcb932.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="cikaso"
+                />
+                <h5 class="center">Curug Cikaso Sukabumi</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/75/3b/a0/753ba03bd6b2540890841a325471af92.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="holbung"
-          />
-          <h5 class="center">Holbung Hill</h5>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/70/4b/75/704b7579f947bcec740c6ba64dbc1720.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="remis"
+                />
+                <h5 class="center">Telaga Remis Kuningan</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/d6/e8/5c/d6e85ce6de266c12608156db4cd35a5f.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="sipiso"
-          />
-          <h5 class="center">Sipiso piso Waterfall</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/aa/cf/a5/aacfa53676e23413646e0cd12f91bc46.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="tinggiraja"
-          />
-          <h5 class="center">Tinggi Raja White Crater</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/05/85/57/058557aa2f188506cbdc9eb33994911d.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="leuser"
-          />
-          <h5 class="center">Mount Leuser National Park</h5>
-            </div>
-          </div>
-        </div>
-        <div class="Explanation">West Sumatra</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/4e/51/82/4e518282b4f76a9ab48fa8873bfe222b.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="anai"
-          />
-          <h5 class="center">Anai Valley</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/88/37/f7/8837f7fe510d87389f8918078f524326.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="pagaruyung"
-          />
-          <h5 class="center">Pagaruyung Palace</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/236x/15/de/53/15de53b48854bbebfa91c47acef4e98c.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="singkarak"
-          />
-          <h5 class="center">Singkarak Lake</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/f4/03/9d/f4039da67f9f680f68efd879c7cdeb41.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="singgalang"
-          />
-          <h5 class="center">Singgalang Mountain</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/03/f5/45/03f54571a19d9004b0b8e5f9373ad654.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="janjang"
-          />
-          <h5 class="center">Janjang Koto Gadang</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/f0/61/62/f061629a8ec620494967ab424a8a0be8.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="lawang"
-          />
-          <h5 class="center">Lawang Peak</h5>
-            </div>
-          </div>
-        </div>
-        <div class="Explanation">South Sumatra</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/ce/e1/2e/cee12e14ed9a05f195ff27e0d43e5e89.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="ampera"
-          />
-          <h5 class="center">Ampera Bridge</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/0d/f4/79/0df4790f151976bb0b0f4fd5e74dcde6.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="dempo"
-          />
-          <h5 class="center">Dempo Mountain</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/0c/7a/88/0c7a88b512ffde40a370959fd38eb079.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="ranau"
-          />
-          <h5 class="center">Ranau Lake</h5>
-            </div>
-          </div>
-        </div>
-        <div class="Explanation">Riau</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/74/51/bd/7451bdd6977b4c140852239911c8d2b7.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="jemur"
-          />
-          <h5 class="center">Jemur Island</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/f1/e8/e8/f1e8e8b16ec7d4626c085e71932b9195.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="trikora"
-          />
-          <h5 class="center">Trikora Beach</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/49/e6/3c/49e63ca7238d55a67f65457fc2c6d9f5.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="bigau"
-          />
-          <h5 class="center">Lubuk Bigau Waterfall</h5>
-            </div>
-          </div>
-        </div>
-        <div class="Explanation">Jambi</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/f6/dd/f4/f6ddf4578813e322fcaf5acff07c066e.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="tujuh"
-          />
-          <h5 class="center">Seven Mountain Lake</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/a0/a0/29/a0a0292ff0c2eea9d00f3039aafa3ed4.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="merangi"
-          />
-          <h5 class="center">Geopark Merangin</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/cd/c8/1b/cdc81bf9b0b1c259b7268dfcad805769.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="kerinci"
-          />
-          <h5 class="center">Kerinci Mountain</h5>
-            </div>
-          </div>
-        </div>
-        <div class="Explanation">Bangka Belitung</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/22/8d/8a/228d8a06a1674d7df34d8eb2cd965d8a.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="kaolin"
-          />
-          <h5 class="center">Kaolin Lake</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/2d/cd/7d/2dcd7dd65c8f7d570031db1de1166068.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="lengkuas"
-          />
-          <h5 class="center">Lengkuas Island</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/4a/08/e7/4a08e748a33af8e20c9d52365b584c45.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="botanical"
-          />
-          <h5 class="center">Botanical Garden</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-      <!-- breadcrumb2 -->
-  <div class="container mt-4">
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-      <div class="breadcrumb1">
-        <ol class="breadcrumb">
-        <li class="breadcrumb-item">Tourist Attraction</li>
-        <li class="breadcrumb-item active" aria-current="page"><a href="#">Jawa</a></li>
-        </ol>
-      </div>
-       <div class="Explanation2">West Java</div>
-      <div class="row padding-card">
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/7e/f0/32/7ef032aaf895406f4f5ac6943d090085.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="canyon"
-          />
-          <h5 class="center">Green Canyon Pangandaran</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/86/60/40/866040b1466e990e3253c94015b56e68.jpg "
-            width="200vw"
-            height="275vx"
-            class="d-block w-100"
-            alt="sakura"
-          />
-          <h5 class="center">Cibodas Botanical Garden Sakura Park</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-           <img
-            src="https://i.pinimg.com/564x/0a/fa/d4/0afad43c96aca65c3ab8da4f864fd47a.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="putih"
-          />
-          <h5 class="center">White Crater Bandung</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/22/b9/75/22b9756f74d13ad57efc1f89a6fcb932.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="cikaso"
-          />
-          <h5 class="center">Curug Cikaso Sukabumi</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/70/4b/75/704b7579f947bcec740c6ba64dbc1720.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="remis"
-          />
-          <h5 class="center">Telaga Remis Kuningan</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/71/f5/2c/71f52cb84f8c65f40cc8746ea1af57b8.jpg "
-            width="200vw"
-            height="275vx"
-            class="d-block w-100"
-            alt="nusantara"
-          />
-          <h5 class="center">Archipelago Flower Park Cianjur</h5>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/71/f5/2c/71f52cb84f8c65f40cc8746ea1af57b8.jpg "
+                  width="200vw"
+                  height="275vx"
+                  class="d-block w-100"
+                  alt="nusantara"
+                />
+                <h5 class="center">Archipelago Flower Park Cianjur</h5>
+              </div>
             </div>
           </div>
         </div>
         <div class="Explanation2">Central Java</div>
-      <div class="row padding-card">
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/54/c3/cf/54c3cfd46bbbef1da2283dfe311e7a59.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="canyon"
-          />
-          <h5 class="center">Parangtritis Beach Jogjakarta</h5>
+        <div class="row padding-card">
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/54/c3/cf/54c3cfd46bbbef1da2283dfe311e7a59.jpg "
+                  width="350vw"
+                  height="350vx"
+                  class="d-block w-100"
+                  alt="canyon"
+                />
+                <h5 class="center">Parangtritis Beach Jogjakarta</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/7b/c7/05/7bc705e1924d554664dbdf749bc187a3.jpg "
+                  width="200vw"
+                  height="275vx"
+                  class="d-block w-100"
+                  alt="dieng"
+                />
+                <h5 class="center">Dataran Tinggi Dieng Wonosobo</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/736x/9f/ba/7b/9fba7b05bf89aafa54c3644f7713035c.jpg"
+                  width="200vw"
+                  height="275vx"
+                  class="d-block w-100"
+                  alt="merbabu"
+                />
+                <h5 class="center">Mount Merbabu National Park Salatiga</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/65/a7/51/65a7510ef9d3e91c4c0c8b36bc52db19.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="selamet"
+                />
+                <h5 class="center">Mount Selamet Brebes</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/d3/d1/e2/d3d1e2eb32422374bb395f6e4c39838b.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="canyon"
+                />
+                <h5 class="center">Brown Canyon Semarang</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/736x/06/bf/f3/06bff3d3662e54e69bd928aa76bfc24e.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="karimun"
+                />
+                <h5 class="center">Karimun Jawa Semarang</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/7b/c7/05/7bc705e1924d554664dbdf749bc187a3.jpg "
-            width="200vw"
-            height="275vx"
-            class="d-block w-100"
-            alt="dieng"
-          />
-          <h5 class="center">Dataran Tinggi Dieng Wonosobo</h5>
+        <div class="Explanation2">East Java</div>
+        <div class="row padding-card">
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/d1/7d/51/d17d515fc1c1e601641b3122aa97ddb9.jpg "
+                  width="200vw"
+                  height="275vx"
+                  class="d-block w-100"
+                  alt="bromo"
+                />
+                <h5 class="center">Tengger Semeru National Park Pasuruan</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/d4/3d/c4/d43dc40243250f5757d33f4a23054b92.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="ijen"
+                />
+                <h5 class="center">Ijen crater Banyuwangi</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/ed/34/4f/ed344fb2e6984de9b42fc3d1bb7ce471.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="bromo"
+                />
+                <h5 class="center">Mount Bromo Malang</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/39/9f/bb/399fbbabdfdea3920e92f351532586d1.jpg "
+                  width="200vw"
+                  height="275vx"
+                  class="d-block w-100"
+                  alt="sewu"
+                />
+                <h5 class="center">Tumpak Sewu Waterfall Lumajang</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/d7/4a/b4/d74ab4d00be42dbacc0b41c873b816f9.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="papuma"
+                />
+                <h5 class="center">Papuma Beach Jember</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/ef/8d/c5/ef8dc52d83f5fd5a6f608e963a5732db.jpg "
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="ranu"
+                />
+                <h5 class="center">Ranu Kumbolo Lake Malang</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-           <img
-            src="https://i.pinimg.com/736x/9f/ba/7b/9fba7b05bf89aafa54c3644f7713035c.jpg"
-            width="200vw"
-            height="275vx"
-            class="d-block w-100"
-            alt="merbabu"
-          />
-          <h5 class="center">Mount Merbabu National Park Salatiga</h5>
+      </nav>
+    </div>
+    <!-- breadcrumb3 -->
+    <div class="container mt-4">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <div class="breadcrumb1">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Tourist Attraction</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a href="#">Nusa Tenggara and Bali</a>
+            </li>
+          </ol>
+        </div>
+        <div class="Explanation">Nusa Tenggara Timur</div>
+        <div class="row padding-card">
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/736x/04/66/65/046665d2901efc62cfe4ad9d08f57dd8.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="kelimutu"
+                />
+                <h5 class="center">Kelimutu Lake</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/736x/51/e1/ed/51e1edce017f48b6472f6e0910100355.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="Kanawa"
+                />
+                <h5 class="center">Kanawa Island</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/f8/c3/e4/f8c3e49ea3f7b9c6a4785e6ccde0ec18.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="botanical"
+                />
+                <h5 class="center">Labuan Bajo</h5>
+              </div>
+            </div>
+          </div>
+          <div class="Explanation">Bali</div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/8c/fc/00/8cfc0075243c14bf239c558039b82558.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="kuta"
+                />
+                <h5 class="center">Kuta Beach</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/ed/89/85/ed8985cb9b5dc86f7481f10a85a6c2a4.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="marine"
+                />
+                <h5 class="center">Bali Safari Marine Park</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://i.pinimg.com/564x/72/e7/b7/72e7b71555c487a92c372e817152e0d9.jpg"
+                  width="300vw"
+                  height="300vx"
+                  class="d-block w-100"
+                  alt="botanical"
+                />
+                <h5 class="center">Garuda Wisnu Kencana</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/65/a7/51/65a7510ef9d3e91c4c0c8b36bc52db19.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="selamet"
-          />
-          <h5 class="center">Mount Selamet Brebes</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/d3/d1/e2/d3d1e2eb32422374bb395f6e4c39838b.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="canyon"
-          />
-          <h5 class="center">Brown Canyon Semarang</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/736x/06/bf/f3/06bff3d3662e54e69bd928aa76bfc24e.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="karimun"
-          />
-          <h5 class="center">Karimun Jawa</h5>
-            </div>
-          </div>
-        </div>
-         <div class="Explanation2">East Java</div>
-      <div class="row padding-card">
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/d1/7d/51/d17d515fc1c1e601641b3122aa97ddb9.jpg "
-            width="200vw"
-            height="275vx"
-            class="d-block w-100"
-            alt="bromo"
-          />
-          <h5 class="center">Tengger Semeru National Park Pasuruan</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/d4/3d/c4/d43dc40243250f5757d33f4a23054b92.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="ijen"
-          />
-          <h5 class="center">Ijen crater Banyuwangi</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-           <img
-            src="https://i.pinimg.com/564x/ed/34/4f/ed344fb2e6984de9b42fc3d1bb7ce471.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="bromo"
-          />
-          <h5 class="center">Mount Bromo Malang</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/39/9f/bb/399fbbabdfdea3920e92f351532586d1.jpg "
-            width="200vw"
-            height="275vx"
-            class="d-block w-100"
-            alt="sewu"
-          />
-          <h5 class="center">Tumpak Sewu Waterfall Lumajang</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/d7/4a/b4/d74ab4d00be42dbacc0b41c873b816f9.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="papuma"
-          />
-          <h5 class="center">Papuma Beach Jember</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/ef/8d/c5/ef8dc52d83f5fd5a6f608e963a5732db.jpg "
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="ranu"
-          />
-          <h5 class="center">Ranu Kumbolo Lake Malang</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-   <!-- breadcrumb3 -->
-   <div class="container mt-4">
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-      <div class="breadcrumb1">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">Tourist Attraction</li>
-          <li class="breadcrumb-item active" aria-current="page"><a href="#">Nusa Tenggara and Bali</a></li>
-        </ol>
-      </div>
-      <div class="Explanation">Nusa Tenggara Timur</div>
-      <div class="row padding-card">
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/736x/04/66/65/046665d2901efc62cfe4ad9d08f57dd8.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="kelimutu"
-          />
-          <h5 class="center">Kelimutu Lake</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/736x/51/e1/ed/51e1edce017f48b6472f6e0910100355.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="Kanawa"
-          />
-          <h5 class="center">Kanawa Island</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/f8/c3/e4/f8c3e49ea3f7b9c6a4785e6ccde0ec18.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="botanical"
-          />
-          <h5 class="center">Labuan Bajo</h5>
-            </div>
-          </div>
-        </div>
-        <div class="Explanation">Bali</div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/8c/fc/00/8cfc0075243c14bf239c558039b82558.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="kuta"
-          />
-          <h5 class="center">Kuta Beach</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/ed/89/85/ed8985cb9b5dc86f7481f10a85a6c2a4.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="marine"
-          />
-          <h5 class="center">Bali Safari Marine Park</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4  mb-4">
-          <div class="card">
-            <div class="card-body">
-            <img
-            src="https://i.pinimg.com/564x/72/e7/b7/72e7b71555c487a92c372e817152e0d9.jpg"
-            width="300vw"
-            height="300vx"
-            class="d-block w-100"
-            alt="botanical"
-          />
-          <h5 class="center">Garuda Wisnu Kencana</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
+      </nav>
+    </div>
   </body>
-  <br/>
-   <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h4>Services</h4>
-                    <p>Petshop</p>
-                    <p>Movie Streaming</p>
-                    <p>Delivery Food</p>
-                </div>
-                <div class="col-md-3">
-                    <h4>Contact</h4>
-                    <p><i class="fa fa-envelope"></i>	ginas.tobing@gmail.com</p>
-                    <p><i class="fa fa-home"></i>Jakarta, Indonesia</p>
-                </div>
-                <div class="col-md-3">
-                    <h4>Follow Us on</h4>
-                    <a href="https://www.instagram.com/chikogina_/?igshid=YmMyMTA2M2Y%3D"><img id="instagramLogo" src="https://img.icons8.com/3d-fluency/344/instagram-new.png" width="20px" alt="instagram link" /></a>
-                    <a href="https://www.linkedin.com/in/ginatobing"><img id="linkendLogo" src="https://img.icons8.com/fluency/344/linkedin.png" width="20px"  alt="linked link" /></a>
-                    <a href="https://github.com/Ginasonia98?tab=repositories"><img id="githubLogo" src="https://img.icons8.com/sf-regular/344/github.png" width="20px"  alt="github link" /></a>
-                </div>
-                 <button type="button" class="btn btn-link ">
-                  <a href="contact-us.html">Contact us </a></button>
-            </div>
-            <hr>
-            <p class="copyright">Psalm The Royal Company © 2022</p>
+  <br />
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Services</h4>
+          <p>Petshop</p>
+          <p>Movie Streaming</p>
+          <p>Delivery Food</p>
         </div>
-    </section>
+        <div class="col-md-3">
+          <h4>Contact</h4>
+          <p><i class="bi bi-envelope"></i> ginas.tobing@gmail.com</p>
+          <p><i class="bi bi-geo-alt"></i>Jakarta, Indonesia</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Follow Us on</h4>
+          <a href="https://www.instagram.com/chikogina_/?igshid=YmMyMTA2M2Y%3D"
+            ><img
+              id="instagramLogo"
+              src="https://img.icons8.com/3d-fluency/344/instagram-new.png"
+              width="20px"
+              alt="instagram link"
+          /></a>
+          <a href="https://www.linkedin.com/in/ginatobing"
+            ><img
+              id="linkendLogo"
+              src="https://img.icons8.com/fluency/344/linkedin.png"
+              width="20px"
+              alt="linked link"
+          /></a>
+          <a href="https://github.com/Ginasonia98?tab=repositories"
+            ><img
+              id="githubLogo"
+              src="https://img.icons8.com/sf-regular/344/github.png"
+              width="20px"
+              alt="github link"
+          /></a>
+        </div>
+        <button type="button" class="btn btn-link">
+          <a href="contact-us.html">Contact us </a>
+        </button>
+      </div>
+      <hr />
+      <p class="copyright">Psalm The Royal Company © 2022</p>
+    </div>
+  </section>
 </html>
